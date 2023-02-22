@@ -1,6 +1,6 @@
 function Validacion(){
     let long = document.getElementById("long").value;
-    if(long <= 12){
+    if(long < 12){
         let resultado = document.getElementById("resultado");
         resultado.style.display = "block";
         resultado.style.backgroundColor= "red";
