@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(148, 204, 253);
+    font-family: Century Gothic;
+}
+
+.titulo {
+    padding-top: 100px;
+    
+    text-align: center;
+}
+
+.div_longuitud {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultado {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: none;
+    width: 800px;
+    margin-left: 343px;
+}
+
+#p_footer {
+    padding-top: 100px;
+    text-align: center;
+}
