@@ -14,7 +14,7 @@ function Validacion(){
 }
 
 function GeneradorPass(long){
-    let pass = " ";
+    let pass = "";
     let chars = "QWERTYUIOPASDFGHJKLÑZXCVBNMqwertyiuiopasdfghjklñzxcvbnm1234567890.,-_{}[]+'¡?=)(/&%$#<>"
     for(let i = 0; i < long; i++){
         pass += chars.charAt(Math.floor(Math.random() * chars.length));
